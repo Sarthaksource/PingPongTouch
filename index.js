@@ -7,8 +7,8 @@ canvas.height = window.innerHeight;
 
 function touchPosition(event)
 {
-	let x = event.touch[0].clientX;
-	let y = event.touch[0].clientY;
+	let x = event.touches[0].clientX;
+	let y = event.touches[0].clientY;
 
 	document.getElementById('test').innerHTML = x +", "+ y;
 }
