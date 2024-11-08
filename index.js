@@ -5,14 +5,6 @@ const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-function touchPosition(event)
-{
-	let x = event.touches[0].clientX;
-	let y = event.touches[0].clientY;
-
-	document.getElementById('test').innerHTML = x +", "+ y;
-}
-
 function vec2(x, y)
 {
 	return {x:x, y:y};
