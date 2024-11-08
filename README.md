@@ -1,2 +1,2 @@
 # Ping Pong Game
-This game can be played [here]() using the **Arrow Keys**.
+This game can be played [here](https://sarthaksource.github.io/PingPongGame/) using the **Arrow Keys**.
